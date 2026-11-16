@@ -1,0 +1,43 @@
+# Binaries and object files
+*.o
+*.out
+*.exe
+a.out
+exp10
+main
+
+# NS-2 Trace and Visualization outputs
+*.tr
+*.nam
+*.graph
+plot_throughput
+tcp1
+tcp2
+out.tr
+out.nam
+exp3.tr
+exp3.nam
+exp3.graph
+exp4.tr
+exp4.nam
+cwnd1.tr
+cwnd2.tr
+
+# Socket test outputs
+received_*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*~
